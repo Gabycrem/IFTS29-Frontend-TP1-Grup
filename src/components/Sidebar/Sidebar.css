@@ -1,0 +1,36 @@
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+}
+
+#logoSidebar{
+    width: 50%;  
+    align-self: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    /* efecto botones*/
+    border: solid 2px rgb(223, 123, 214);
+    background-color: #edb4b4;
+    border-radius: 1rem;
+    width: 150px;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.sidebarFooter{
+    margin-top: auto;
+    text-align: center;
+}
