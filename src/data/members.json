@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lucas-blaci",
+    "name": "Lucas Blaci",
+    "skills": ["JavaScript", "React", "Node.js"],
+    "projects": [
+      "Gestor de Tareas Web",
+      "API REST para productos",
+      "App de clima en tiempo real"
+    ],
+    "technologies": [
+      { "name": "HTML5", "icon": "html5.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Node.js", "icon": "node.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "JavaScript", "icon": "js.png" }
+    ]
+  },
+  {
+    "id": "micaela-luaces",
+    "name": "Micaela Luaces",
+    "skills": ["Python", "MySQL", "React"],
+    "projects": [
+      "Sistema de control de stock",
+      "Web de recetas saludables",
+      "Gestor de reservas de hotel"
+    ],
+    "technologies": [
+      { "name": "HTML5", "icon": "html5.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Python", "icon": "python.png" },
+      { "name": "MySQL", "icon": "mysql.png" }
+    ]
+  },
+  {
+    "id": "nazarena-macre",
+    "name": "Nazarena Macre",
+    "skills": ["Java", "Spring Boot", "SQL"],
+    "projects": [
+      "Plataforma de e-learning",
+      "Sistema de gestión de bibliotecas",
+      "App de seguimiento de hábitos"
+    ],
+    "technologies": [
+      { "name": "Java", "icon": "java.png" },
+      { "name": "Spring Boot", "icon": "spring.png" },
+      { "name": "SQL", "icon": "sql.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "HTML5", "icon": "html5.png" }
+    ]
+  },
+  {
+    "id": "mirta-veron",
+    "name": "Mirta Verón",
+    "skills": ["C#", ".NET", "React"],
+    "projects": [
+      "Sistema de reservas para consultorios",
+      "Dashboard de métricas empresariales",
+      "App de encuestas online"
+    ],
+    "technologies": [
+      { "name": "C#", "icon": "csharp.png" },
+      { "name": ".NET", "icon": "dotnet.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "JavaScript", "icon": "js.png" }
+    ]
+  }
+]
