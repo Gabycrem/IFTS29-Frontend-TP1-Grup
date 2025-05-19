@@ -4,12 +4,14 @@ import Sidebar from './components/Sidebar/Sidebar';
 import './App.css';
 
 function App() {
+  //constante para cargar las rutas a modo de ejemplo, hasta que esten disponibles los componentes necesarios
   const Dummy = ({ name }) => <div> <h1> Página de {name}</h1></div>
   return (
         <Layout 
           sidebar={<Sidebar />}
           main={ 
-          <Routes>
+          //Modificar los element cuando esten disponibles los componentes.
+          <Routes>  
             <Route path='/' element={<Dummy name="Presentación" />} />
             <Route path='/integrantes/:nombre' element={<Dummy name="IntegranteDetalle" />} />
             <Route path='/libros' element={<Dummy name="Libros" />} />
