@@ -1,3 +1,8 @@
+@import '../../styles/global.css';
+*{
+  color: var(--color-acento);
+}
+
 .sidebarContainer{
     display: flex;
     flex-direction: column;
@@ -19,25 +24,28 @@
 }
 
 .no-style {
-    cursor: pointer;
-}
-
-.dropdown{
-    display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    font-size: var(--font-size-texto);
     /* efecto botones*/
-    border: solid 2px rgb(223, 123, 214);
-    background-color: #edb4b4;
-    color: #6c375d;
+    background-color: var(--color-primario);
+    color: var(--color-acento);
     border-radius:0.8rem;
     width: 150px;
     min-height: 30px;
-    padding: 0.2rem;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .sidebarFooter{
@@ -45,54 +53,32 @@
     text-align: center;
 }
 
-/* .menu {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 100%;
-   margin-top: 40px;
-} */
-
-/* .menu a {
-  text-decoration: none; 
-  color: #333;
-  font-size: 1rem;
-  padding: 10px 12px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-} */
-
 .link:hover {
-  background-color: #d49c9c;
-  color: #4f1c1c;
+  background-color: var(--color-secundario);
+  font-weight: bold;
+  color: var(--color-primario);
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .link.active {
-  background-color: #4f1c1c;
-  color: #d49c9c;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+      border: solid 2px rgb(223, 123, 214);
 }
 
-/* == SUBMENU == */
-.submenu {
-  margin-left: 15px;
+/* ------- sub menú ------  */
+.subMenu {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-top: 20px;
+  align-items: flex-start;
+  gap: 0.3rem;
 }
 
-.submenu-item {
-  color: #666;
-  text-decoration: none;
-  font-size: 14px;
-  transition: color 0.3s;
+.dropdown{
+    position: static;
 }
 
-.submenu-item:hover {
-  color: #0077cc;
+.dropdown .link{
+  margin-bottom: 0.5rem;
 }
-
-/* .arrow {
-  float: right;
-  font-size: 12px;
-} */

@@ -7,4 +7,4 @@ function PerfilLucas() {
   );
 }
 
-export default lucas_blaci;
+export default PerfilLucas;
