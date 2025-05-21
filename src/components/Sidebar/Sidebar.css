@@ -10,12 +10,20 @@
     align-self: center;
 }
 
-ul{
+.menu{
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 1.5rem;
+}
+
+.no-style {
+    cursor: pointer;
+}
+
+.dropdown{
+    display: none;
 }
 
 .link{
@@ -24,8 +32,10 @@ ul{
     /* efecto botones*/
     border: solid 2px rgb(223, 123, 214);
     background-color: #edb4b4;
-    border-radius: 1rem;
+    color: #6c375d;
+    border-radius:0.8rem;
     width: 150px;
+    min-height: 30px;
     padding: 0.2rem;
     text-align: center;
 }
@@ -35,31 +45,31 @@ ul{
     text-align: center;
 }
 
-.menu {
+/* .menu {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 100%;
    margin-top: 40px;
-}
+} */
 
-.menu a {
-  text-decoration: none; /* sin subrayado */
+/* .menu a {
+  text-decoration: none; 
   color: #333;
   font-size: 1rem;
   padding: 10px 12px;
   border-radius: 8px;
   transition: background-color 0.3s ease, color 0.3s ease;
+} */
+
+.link:hover {
+  background-color: #d49c9c;
+  color: #4f1c1c;
 }
 
-.menu a:hover {
-  background-color: #f2f2f2;
-  color: #0077cc;
-}
-
-.menu a.active {
-  background-color: #0077cc;
-  color: #fff;
+.link.active {
+  background-color: #4f1c1c;
+  color: #d49c9c;
 }
 
 /* == SUBMENU == */
@@ -82,7 +92,7 @@ ul{
   color: #0077cc;
 }
 
-.arrow {
+/* .arrow {
   float: right;
   font-size: 12px;
-}
+} */

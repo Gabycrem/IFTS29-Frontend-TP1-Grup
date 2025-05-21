@@ -14,13 +14,11 @@ function App() {
           main={ 
           //Modificar los element cuando esten disponibles los componentes.
           <Routes>  
-            <Route path='/' element={<Dummy name="Presentación" />} />
             <Route path="/pages/presentacion" element={<Presentacion />} />           
             <Route path='/datos-locales' element={<Dummy name="Libros" />} />
             <Route path='/api' element={<Dummy name="API" />} />
             <Route path='/bitacora' element={<Dummy name="Bitácora" />} />
             <Route path="/pages/:id" element={<MemberPage />} />
-            <Route path='/comentarios' element={<Dummy name="Comentarios" />} />
           </Routes>
         }
         />

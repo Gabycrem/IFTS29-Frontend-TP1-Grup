@@ -11,49 +11,24 @@ const Sidebar = () => {
       <img src={unaImagen} alt="logo" id="logoSidebar" />
 
       <nav className="menu">
-        <div className="menu-item dropdown">
-          <div className="dropdown-header">
-            <NavLink
-              to="/pages/presentacion"
-              className="menu-link"
-              onClick={() => setOpen(!open)}
-            >
-              Presentación
-              <span className={`arrow ${open ? "up" : "down"}`}>▾</span>
-            </NavLink>
-          </div>
+        <NavLink to="/pages/presentacion" className="link">Presentación</NavLink>
 
-          {open && (
-            <div className="submenu">
-              {members.map((member) => (
-                <NavLink
-                  key={member.id}
-                  to={`/pages/${member.id}`}
-                  className="submenu-item"
-                >
-                  {member.name}
-                </NavLink>
-              ))}
-             
+        <div className="subMenu">
+            <button  className="link no-style"> Integrantes </button>
+            <div className="dropdown">
+                <NavLink to='/pages/perfillucas' className='link'>Lucas</NavLink>
+                <NavLink to='/pages/perfillucas' className='link'>Mica</NavLink>
+                <NavLink to='/pages/perfillucas' className='link'>Naza</NavLink>
+                <NavLink to='/pages/perfillucas' className='link'>Mirta</NavLink>
             </div>
-          )}
         </div>
 
-        <NavLink to="/datos-locales" className="menu-item">
-          Datos JSON
-        </NavLink>
+        <NavLink to="/datos-locales" className="link">Datos JSON </NavLink>
 
-        <NavLink to="/api" className="menu-item">
-          Datos API
-        </NavLink>
+        <NavLink to="/api" className="link">Datos API</NavLink>
 
-        <NavLink to="/bitacora" className="menu-item">
-          Bitácora
-        </NavLink>
+        <NavLink to="/bitacora" className="link">Bitácora</NavLink>
 
-        <NavLink to="/comentarios" className="menu-item">
-          Comentarios
-        </NavLink>
       </nav>
 
       <footer className="sidebarFooter">
