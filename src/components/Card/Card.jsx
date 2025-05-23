@@ -1,4 +1,6 @@
-import './Card.css';
+import "../../styles/global.css";
+
+
 
 export default function Card({ title, image, description, extraContent }) {
   return (
