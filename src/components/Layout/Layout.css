@@ -17,4 +17,5 @@
   padding: 20px;
   background-color: #fefefe; 
   overflow-y: auto; 
+  color: var(--color-primario);
 }
