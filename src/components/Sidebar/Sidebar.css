@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     height: 95vh;
+    overflow-y: auto;
 }
 
 #logoSidebar{
@@ -82,3 +83,4 @@
 .dropdown .link{
   margin-bottom: 0.5rem;
 }
+
