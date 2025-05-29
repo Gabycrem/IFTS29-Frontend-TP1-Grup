@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import './Layout.css'
 
 const Layout = ({ children }) => {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+    const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
+
     return(
         <div className="layout">
-            <aside className="sidebarLayout">
-                <Sidebar />
+            <button className={`hamburger ${sidebarOpen ? "open" : ""}`} onClick={toggleSidebar}>{sidebarOpen ? '✖' : '☰'}</button>
+            <aside className={`sidebarLayout ${sidebarOpen ? "open" : ""}`}>
+                <Sidebar onLinkClick={() => setSidebarOpen(false)} />
             </aside>
             <main className='content'>
                 {children}
