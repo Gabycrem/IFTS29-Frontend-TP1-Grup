@@ -1,6 +1,6 @@
 [
   {
-    "id": "lucas-blaci",
+    "id": "perfillucas",
     "name": "Lucas Blaci",
     "skills": ["JavaScript", "React", "Node.js"],
     "projects": [
@@ -9,15 +9,15 @@
       "App de clima en tiempo real"
     ],
     "technologies": [
-      { "name": "HTML5", "icon": "html5.png" },
-      { "name": "React", "icon": "react.png" },
-      { "name": "Node.js", "icon": "node.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "JavaScript", "icon": "js.png" }
+      { "name": "html5", "iconName": "html5" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Node.js", "iconName": "node" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "JavaScript", "iconName": "js" }
     ]
   },
   {
-    "id": "micaela-luaces",
+    "id": "perfilmicaela",
     "name": "Micaela Luaces",
     "skills": ["Python", "MySQL", "React"],
     "projects": [
@@ -26,15 +26,15 @@
       "Gestor de reservas de hotel"
     ],
     "technologies": [
-      { "name": "HTML5", "icon": "html5.png" },
-      { "name": "React", "icon": "react.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "Python", "icon": "python.png" },
-      { "name": "MySQL", "icon": "mysql.png" }
+      { "name": "HTML5", "iconName": "html5" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "Python", "iconName": "python" },
+      { "name": "MySQL", "iconName": "mysql" }
     ]
   },
   {
-    "id": "nazarena-macre",
+    "id": "perfilnazarena",
     "name": "Nazarena Macre",
     "skills": ["Java", "Spring Boot", "SQL"],
     "projects": [
@@ -43,15 +43,15 @@
       "App de seguimiento de hábitos"
     ],
     "technologies": [
-      { "name": "Java", "icon": "java.png" },
-      { "name": "Spring Boot", "icon": "spring.png" },
-      { "name": "SQL", "icon": "sql.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "HTML5", "icon": "html5.png" }
+      { "name": "Java", "iconName": "java" },
+      { "name": "Spring Boot", "iconName": "spring" },
+      { "name": "SQL", "iconName": "sql" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "HTML5", "iconName": "html5" }
     ]
   },
   {
-    "id": "mirta-veron",
+    "id": "perfilmirta",
     "name": "Mirta Verón",
     "skills": ["C#", ".NET", "React"],
     "projects": [
@@ -60,11 +60,11 @@
       "App de encuestas online"
     ],
     "technologies": [
-      { "name": "C#", "icon": "csharp.png" },
-      { "name": ".NET", "icon": "dotnet.png" },
-      { "name": "React", "icon": "react.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "JavaScript", "icon": "js.png" }
+      { "name": "C#", "iconName": "csharp" },
+      { "name": ".NET", "iconName": "dotnet" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "JavaScript", "iconName": "js" }
     ]
   }
 ]
