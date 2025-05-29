@@ -1,0 +1,41 @@
+.lista-api {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contenedor-api {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta-api {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-api:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-api h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.tarjeta-api p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
