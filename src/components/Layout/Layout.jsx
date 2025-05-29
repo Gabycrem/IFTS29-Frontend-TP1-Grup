@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import './Layout.css'
+import { Outlet } from 'react-router-dom';
 
-const Layout = ({ children }) => {
+const Layout = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
                 <Sidebar onLinkClick={() => setSidebarOpen(false)} />
             </aside>
             <main className='content'>
-                {children}
+                <Outlet />
             </main>
         </div>
     );
