@@ -21,7 +21,7 @@ const Sidebar = () => {
               {open && (
                 <div className="dropdown">
                   <NavLink to='/pages/perfillucas' className='link'>Lucas</NavLink>
-                  <NavLink to='/pages/perfilmicalea' className='link'>Mica</NavLink>
+                  <NavLink to='/pages/perfilmicaela' className='link'>Mica</NavLink>
                   <NavLink to='/pages/perfilmirta' className='link'>Mirta</NavLink>
                   <NavLink to='/pages/perfilnazarena' className='link'>Naza</NavLink>
               </div>
