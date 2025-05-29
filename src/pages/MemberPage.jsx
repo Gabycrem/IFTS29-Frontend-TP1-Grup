@@ -39,7 +39,6 @@ const MemberPage = () => {
 
   if (!member) return <p>Integrante no encontrado</p>;
 
-  // Añade los objetos de icono a cada tecnología
   const technologiesWithIcons = member.technologies.map(tech => ({
     ...tech,
     icon: icons[tech.iconName]
