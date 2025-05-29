@@ -1,18 +1,20 @@
+@import '../../styles/global.css';
+
 .layout {
   display: flex;
   height: 100vh; 
 }
 
 .sidebarLayout {
-  width: 250px;
-  background-color: #d88282; 
+  width: 25%;
+  max-width: 250px;
+  background-color: var(--color-primario); 
   padding: 1rem;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
 .content {
   flex: 1; 
   padding: 20px;
-  background-color: #fff; 
+  background-color: #fefefe; 
   overflow-y: auto; 
 }

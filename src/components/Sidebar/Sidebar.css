@@ -1,3 +1,8 @@
+@import '../../styles/global.css';
+*{
+  color: var(--color-acento);
+}
+
 .sidebarContainer{
     display: flex;
     flex-direction: column;
@@ -10,7 +15,7 @@
     align-self: center;
 }
 
-ul{
+.menu{
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -18,16 +23,29 @@ ul{
     margin-top: 1.5rem;
 }
 
+.no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
 .link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    font-size: var(--font-size-texto);
     /* efecto botones*/
-    border: solid 2px rgb(223, 123, 214);
-    background-color: #edb4b4;
-    border-radius: 1rem;
+    background-color: var(--color-primario);
+    color: var(--color-acento);
+    border-radius:0.8rem;
     width: 150px;
-    padding: 0.2rem;
+    min-height: 30px;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .sidebarFooter{
@@ -35,54 +53,32 @@ ul{
     text-align: center;
 }
 
-.menu {
+.link:hover {
+  background-color: var(--color-secundario);
+  font-weight: bold;
+  color: var(--color-primario);
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.link.active {
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+      border: solid 2px rgb(223, 123, 214);
+}
+
+/* ------- sub menú ------  */
+.subMenu {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 100%;
-   margin-top: 40px;
+  align-items: flex-start;
+  gap: 0.3rem;
 }
 
-.menu a {
-  text-decoration: none; /* sin subrayado */
-  color: #333;
-  font-size: 1rem;
-  padding: 10px 12px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+.dropdown{
+    position: static;
 }
 
-.menu a:hover {
-  background-color: #f2f2f2;
-  color: #0077cc;
-}
-
-.menu a.active {
-  background-color: #0077cc;
-  color: #fff;
-}
-
-/* == SUBMENU == */
-.submenu {
-  margin-left: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 20px;
-}
-
-.submenu-item {
-  color: #666;
-  text-decoration: none;
-  font-size: 14px;
-  transition: color 0.3s;
-}
-
-.submenu-item:hover {
-  color: #0077cc;
-}
-
-.arrow {
-  float: right;
-  font-size: 12px;
+.dropdown .link{
+  margin-bottom: 0.5rem;
 }

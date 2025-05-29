@@ -1,5 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* FUENTES DE GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* VARIABLES GLOBALES */
+:root {
+  --color-primario: #2242A3;
+  --color-secundario: #9FCBE1;
+  --color-acento: #D1B2E0;
+
+  --font-titulos: 'Merriweather', serif;
+  --font-texto: 'Roboto', sans-serif;
+
+  --font-size-texto: 12px;
+  --font-size-titulo: 16px;
+}
+
+/* ESTILOS GENERALES */
+body {
+  font-family: var(--font-texto);
+  font-size: var(--font-size-texto);
+  background-color: #fefefe;
+  color: #000000;
+}
+
+/* TÍTULOS */
+h1, h2, h3, h4 {
+  font-family: var(--font-titulos);
+  font-size: var(--font-size-titulo);
+
+}
+
+/* ENLACES */
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* IMÁGENES RESPONSIVAS */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
