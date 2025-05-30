@@ -13,9 +13,9 @@
   font-family: var(--font-titulos);
 }
 
-.tarjetas-container {
+.presentacion .tarjetas-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 por fila */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 2rem;
   justify-content: center;
 }

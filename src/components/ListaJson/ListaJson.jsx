@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../../styles/global.css";
-import "../card/card.css";
-
-
+import "../Card/Card.css";
 
 const ListaJson = () => {
   const [libros, setLibros] = useState([]);
