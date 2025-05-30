@@ -1,5 +1,5 @@
 import "../../styles/global.css";
-import "../card/card.css";
+import "../Card/Card.css";
 
 
 
