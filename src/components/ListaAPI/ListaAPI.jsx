@@ -1,5 +1,6 @@
-import './ListaAPI.css';
 import React, { useEffect, useState } from 'react';
+import "../../styles/global.css";
+import "../card/card.css";
 
 const ListaAPI = () => {
   const [feriados, setFeriados] = useState([]);
@@ -22,26 +23,32 @@ const ListaAPI = () => {
       });
   }, []);
 
-const getFecha = (fechaString) => {
-  if (!fechaString) return 'Fecha no disponible';
-  const [anio, mes, dia] = fechaString.split('-');
-  return `${dia}/${mes}/${anio}`;
-};
+  const getFecha = (fechaString) => {
+    if (!fechaString) return 'Fecha no disponible';
+    const [anio, mes, dia] = fechaString.split('-');
+    return `${dia}/${mes}/${anio}`;
+  };
 
   if (loading) return <p>Cargando feriados...</p>;
   if (error) return <p className="error">Error: {error}</p>;
 
   return (
     <div className="lista-api">
-      <h2>Feriados en Argentina - 2025</h2>
-      <div className="contenedor-api">
-{feriados.map((feriado) => (
-  <div key={`${feriado.fecha}-${feriado.nombre}`} className="tarjeta-api">
-    <h3>{feriado.nombre}</h3>
-    <p><strong>Fecha:</strong> {getFecha(feriado.fecha)}</p>
-    <p><strong>Tipo:</strong> {feriado.tipo}</p>
-  </div>
-))}
+      <h1>Feriados en Argentina - 2025</h1>
+      <div className="tarjetas-container">
+        {feriados.map((feriado) => (
+          <div key={`${feriado.fecha}-${feriado.nombre}`} className="card api-card">
+            <div className="card-body">
+              <h3 className="card-title">{feriado.nombre}</h3>
+              <p className="card-description">
+                <strong>Fecha:</strong> {getFecha(feriado.fecha)}
+              </p>
+              <p className="card-description">
+                <strong>Tipo:</strong> {feriado.tipo}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

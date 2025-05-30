@@ -1,12 +1,23 @@
-/* === TARJETAS GENERALES === */
+/* === PRESENTACIÓN TARJETAS PERSONALIZADAS === */
+
+.presentacion {
+  padding: 2rem;
+  background-color: var(--color-fondo-claro);
+  text-align: center;
+}
+
+.presentacion h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+  font-family: var(--font-titulos);
+}
 
 .tarjetas-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  gap: 1.5rem;
-  padding: 1.5rem;
-  justify-items: center;
-  background-color: var(--color-fondo-claro);
+  grid-template-columns: repeat(2, 1fr); /* 2 por fila */
+  gap: 2rem;
+  justify-content: center;
 }
 
 .card {
@@ -14,8 +25,7 @@
   border: 0.125rem solid var(--color-acento);
   border-radius: 1rem;
   box-shadow: 0 0.25rem 0.5rem rgba(209, 178, 224, 0.4);
-  width: 19rem;
-  max-width: 100%;
+  width: 22rem;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-family: var(--font-texto);
@@ -30,7 +40,7 @@
 
 .card-img {
   width: 100%;
-  height: 11rem;
+  height: 12rem;
   object-fit: contain;
 }
 
@@ -40,13 +50,20 @@
 
 .card-title {
   font-family: var(--font-titulos);
-  font-size: 1rem;
-  color: var(--color-primario); /* azul oscuro */
+  font-size: 1.2rem;
+  color: var(--color-primario);
   margin-bottom: 0.5rem;
 }
 
 .card-description {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--color-texto);
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .tarjetas-container {
+    grid-template-columns: 1fr;
+  }
+}
+

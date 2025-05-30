@@ -1,8 +1,6 @@
 import Card from '../components/Card/Card';
 import "../styles/global.css";
-
-
-
+import "../styles/presentacion.css";
 import perfillucas from '../assets/perfillucas.jpg';
 import perfilmica from '../assets/perfilmica.jpg';
 import perfilnazarena from '../assets/perfilnazarena.jpg';
@@ -43,7 +41,9 @@ export default function Presentacion() {
             title={i.nombre}
             image={i.imagen}
             description={i.descripcion}
+            className="card-grande"
           />
+
         ))}
       </div>
     </section>
