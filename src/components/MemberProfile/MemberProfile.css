@@ -1,5 +1,5 @@
 .profileContainer {
-  max-width: 800px;
+  max-width: 100%;
   margin: 2rem auto;
   padding: 2rem;
   background: white;
@@ -14,11 +14,11 @@
   border-bottom: 1px solid #eaeaea;
 }
 
-.profileHeader h1 {
+/* .profileHeader h1 {
   font-size: 2rem;
   color: #2c3e50;
   margin-bottom: 0.5rem;
-}
+} */
 
 .section {
   margin-bottom: 2rem;
