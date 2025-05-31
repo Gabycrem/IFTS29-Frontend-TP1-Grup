@@ -3,7 +3,7 @@ import "./MemberProfile.css";
 
 const MemberProfile = ({ name, skills, projects, technologies }) => {
   return (
-    <div className="profileContainer">
+    <div className="profileContainer card">
       <div className="profileHeader">
         <h1>{name}</h1>
       </div>
