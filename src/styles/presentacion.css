@@ -61,8 +61,8 @@
   font-style: italic;
 }
 
-@media (max-width: 768px) {
-  .tarjetas-container {
+@media only screen and (max-width: 768px) {
+  .presentacion .tarjetas-container {
     grid-template-columns: 1fr;
   }
 }
