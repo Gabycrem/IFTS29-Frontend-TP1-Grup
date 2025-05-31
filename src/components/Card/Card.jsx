@@ -1,9 +1,6 @@
 import "../../styles/global.css";
 import "../Card/Card.css";
 
-
-
-
 export default function Card({ title, image, description, extraContent, className = "" }) {
   return (
     <div className={`card ${className}`}>
