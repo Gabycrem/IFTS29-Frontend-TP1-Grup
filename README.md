@@ -5,8 +5,24 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 ---
 
 ## 📅 Fechas
-- **Inicio del proyecto:** 5 de mayo  
-- **Entrega final:** 26 de mayo
+- **Inicio del proyecto:** 5 de Mayo  
+- **Entrega final:** 2 de Junio
+
+---
+
+## 📸 Capturas de Pantalla
+
+### 🖼️ Presentación del Equipo
+![Presentacion](./public/capturas/presentacion.png)
+
+### 👥 Perfil Individual
+![Perfil ](./public/capturas/unPerfil.png.png)
+
+### 📚 Lista de Libros desde JSON
+![Libros](./public/capturas/json.png)
+
+### 🌍 Bitácora
+![Bitacora](./public/capturas/bitacora.png)
 
 ---
 
@@ -24,22 +40,60 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 
 ## 👥 Integrantes
 
-- Micaela Natalia Luaces – Rol a definir  
-- Lucas Ezequiel Blaci – Rol a definir  
-- Nazarena Gabriela Macre – Rol a definir
-- Mirta Veron - Rol a definir
+- Micaela Natalia Luaces – Diseño e Identidad Visual.  
+- Lucas Ezequiel Blaci – Integración de datos.  
+- Nazarena Gabriela Macre – Liderazgo y Coordinación General.
+- Mirta Veron - Perfiles dinámicos.
 
 ---
 
-## 🛠️ Tecnologías Iniciales
+## 🧩 Funcionalidades
 
-- React  
-- React Router  
-- HTML & CSS  
-- JavaScript  
-- Vite o Create React App  
-- Git & GitHub  
-- Vercel
+- 🌐 SPA con React y React Router DOM  
+- 🧭 Navegación dinámica por rutas  
+- 📁 Visualización de datos desde archivo JSON  
+- 🌍 Consumo de datos desde API pública  
+- 🧑‍💻 Perfiles individuales con rutas dinámicas  
+- 🎨 Estilo visual coherente y responsive  
+- 📓 Bitácora integrada al proyecto  
+
+---
+
+## ⚙️ Tecnologías y Herramientas
+
+- ⚛️ React + Vite  
+- 🧭 React Router DOM  
+- 🎨 CSS Modules  
+- 📄 JSON  
+- ☁️ Vercel  
+- 💻 GitHub  
+- 📋 Trello  
+- 💬 Discord  
+
+---
+
+## 🌲 Estructura del Proyecto
+
+\`\`\`
+src/
+├── components/
+│   ├── Layout.jsx
+│   ├── Sidebar.jsx
+│   ├── PresentacionEquipo.jsx
+│   ├── ListaAPI.jsx
+│   └── Perfil.jsx
+├── data/
+│   └── libros.json
+├── pages/
+│   ├── Home.jsx
+│   ├── Equipo.jsx
+│   └── Comentarios.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+└── styles/
+    └── global.css
+\`\`\`
 
 ---
 
@@ -47,27 +101,16 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 
 ✅ Repositorio creado  
 ✅ Estructura base en React  
-🔲 Rutas definidas  
-🔲 Componentes principales  
-🔲 Consumo de JSON  
-🔲 Consumo de API pública  
-🔲 Estilos responsive  
-🔲 Bitácora final  
+✅ Rutas definidas  
+✅ Componentes principales  
+✅ Consumo de JSON  
+✅ Consumo de API pública  
+✅ Estilos responsive  
+✅ Bitácora final  
 🔲 Deploy en Vercel  
 
 ---
 
-# React + Vite
+## 📌 Notas Finales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
----
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto nos permitió aplicar conocimientos teóricos y prácticos de React, aprender a trabajar en equipo y organizar tareas en un entorno colaborativo. Cada integrante aportó desde su rol, fortaleciendo no solo las habilidades técnicas, sino también las comunicacionales y organizativas.
