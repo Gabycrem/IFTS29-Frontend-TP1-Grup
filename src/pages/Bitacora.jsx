@@ -1,39 +1,72 @@
 import React from 'react';
-// import './Bitacora.css'; 
+import { useEffect, useState } from "react";
+import bitacoraData from "../data/bitacora.json";
+import '../styles/Bitacora.css';
+
 
 const Bitacora = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    setData(bitacoraData);
+  }, []);
+
+  if (!data) return <p>Cargando bitácora...</p>;
+
   return (
-    <div className="bitacora-container">
-      <h1>Bitácora del Proyecto</h1>
+    <div className="bitacoraContainer card">
+      <h1>📚 Bitácora del Proyecto</h1>
 
       <section>
         <h2>👥 Roles del equipo</h2>
         <ul>
-          <li><strong>Nazarena:</strong> Organización del equipo y documentación</li>
-          <li><strong>Micaela:</strong> Diseño general y presentación del sitio</li>
-          <li><strong>Mirta:</strong> Página de perfil y navegación</li>
-          <li><strong>Lucas:</strong> Consumo de JSON local y API pública</li>
+          {data.integrantes.map((integrante, index) => (
+            <li key={index}>
+              <strong>{integrante.nombre}:</strong> {integrante.rol}
+            </li>
+          ))}
         </ul>
       </section>
 
       <section>
-        <h2>🛠 Organización y herramientas utilizadas</h2>
-        <p>Nos organizamos usando las siguientes herramientas:</p>
-        <ul>
-          <li>✅ Repositorio GitHub para control de versiones</li>
-          <li>✅ Ramificación por integrantes para evitar conflictos</li>
-          <li>✅ Comunicación mediante WhatsApp/Discord</li>
-          <li>✅ Seguimiento con Trello (o tareas internas)</li>
-        </ul>
+        <h2>🧑‍💻 Aportes de cada integrante</h2>
+        {data.integrantes.map((integrante, index) => (
+          <div  key={index} className={`integrante ${index !== 0 ? "conLinea" : ""}`}>
+            <h3 className='card-title'>{integrante.nombre}</h3>
+            <p className='card-description'><strong>Rol:</strong> {integrante.rol}</p>
+            <p className='card-description'>{integrante.descripcion}</p>
+            <p className='card-description'><strong>Tareas:</strong></p>
+            <ul>
+              {integrante.tareas.map((tarea, index) => (
+                <li key={index}>✔️ {tarea}</li>
+              ))}
+            </ul>
+            <p><strong>Fortalezas destacadas:</strong></p>
+            <ul>
+              {integrante.fortalezas.map((fortaleza, index) => (
+                <li key={index}>⭐ {fortaleza}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </section>
 
       <section>
-        <h2>📌 Metodología de trabajo</h2>
-        <p>Trabajamos de forma colaborativa utilizando buenas prácticas de desarrollo:</p>
+        <h2>🗓 Cronología del trabajo</h2>
         <ul>
-          <li>🔄 Se definieron las tareas y se asignaron según habilidades</li>
-          <li>🧪 Se realizaron pruebas locales antes de integrar en la rama principal</li>
-          <li>📆 Se respetaron los tiempos de entrega y revisión</li>
+          {data.cronologia.map((evento, index) => (
+            <li key={index}>📌 {evento}</li>
+          ))}
+        </ul>
+      </section>
+
+      {/* Herramientas y tecnologías */}
+      <section>
+        <h2>🛠 Tecnologías y herramientas utilizadas</h2>
+        <ul>
+          {data.tecnologias.map((tec, index) => (
+            <li key={index}>✅ {tec}</li>
+          ))}
         </ul>
       </section>
     </div>

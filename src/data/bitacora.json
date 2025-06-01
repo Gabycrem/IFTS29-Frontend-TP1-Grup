@@ -1,0 +1,85 @@
+{
+  "integrantes": [
+    {
+      "nombre": "Nazarena Macre",
+      "rol": "Liderazgo y Coordinación General",
+      "tareas": [
+        "Coordinación del grupo y comunicación con el docente",
+        "Creación del repositorio en GitHub y rama develop",
+        "Configuración inicial con Vite",
+        "Desarrollo de los componentes Layout y Sidebar",
+        "Implementación de rutas principales con React Router",
+        "Deploy en Vercel y solución de errores 404"
+      ],
+      "descripcion": "Nazarena fue nuestra líder y organizadora. Desde el primer momento se encargó de coordinar el grupo, planificar las tareas semanales y mantener una comunicación fluida con el docente. También creó el repositorio en GitHub y definió la rama develop para trabajar colaborativamente. Técnicamente, configuró el entorno con Vite para acelerar el desarrollo y desarrolló los componentes Layout y Sidebar, que son la base visual y de navegación de la aplicación. Implementó las rutas principales con React Router y se encargó del deploy en Vercel. Un problema importante que resolvió fue ajustar la configuración del deploy cuando aparecieron errores 404 en producción, asegurando que la aplicación funcionara correctamente en Vercel. Su liderazgo y conocimiento técnico fueron clave para mantener el proyecto encaminado.",
+      "fortalezas": [
+        "Liderazgo",
+        "Organización",
+        "Dominio técnico"
+      ]
+    },
+    {
+      "nombre": "Micaela Natalia Luaces",
+      "rol": "Diseño e Identidad Visual",
+      "tareas": [
+        "Definición de paleta de colores y tipografías",
+        "Diseño del logo del grupo",
+        "Selección de imágenes con IA",
+        "Creación y estilización del componente Presentación del equipo",
+        "Coordinación visual general"
+      ],
+      "descripcion": "Micaela se encargó de la identidad visual del proyecto. Definió la paleta de colores, tipografías y el fondo general para dar una apariencia consistente. También diseñó el logo del grupo y seleccionó imágenes con IA para las tarjetas del equipo, lo que dio un toque original y atractivo. Ella creó el componente Presentación del equipo y estilizó las tarjetas, además de coordinar para que todos los estilos globales y específicos fueran coherentes entre sí. Tuvimos algunos desafíos para mantener una línea estética uniforme, sobre todo porque cada uno desarrollaba distintas partes, pero Micaela logró que todo encajara con gran atención al detalle.",
+      "fortalezas": [
+        "Estética",
+        "Creatividad",
+        "Enfoque UI/UX"
+      ]
+    },
+    {
+      "nombre": "Lucas Ezequiel Blaci",
+      "rol": "Integración de Datos",
+      "tareas": [
+        "Creación del componente ListaAPI para consumir datos desde API pública",
+        "Manejo de estado de carga y error",
+        "Renderizado de datos desde archivo JSON local",
+        "Colaboración en documentación y bitácora"
+      ],
+      "descripcion": "Mi foco principal fue el manejo e integración de datos dinámicos. Creé el componente ListaAPI para consumir datos desde una API pública, gestionando cuidadosamente los estados de carga y errores para que la aplicación respondiera bien ante cualquier fallo. También desarrollé la funcionalidad para leer y mostrar datos desde un archivo JSON local, aplicando un diseño personalizado para que la información se presentara clara y ordenada. Uno de los retos fue manejar correctamente el estado y los efectos en React para que la interfaz se actualizara sin problemas cuando llegaban nuevos datos. Además, ayudé con la documentación y en la redacción de la bitácora para mantener la claridad sobre el proceso.",
+      "fortalezas": [
+        "Pensamiento lógico",
+        "Responsabilidad técnica"
+      ]
+    },
+    {
+      "nombre": "Mirta Verón",
+      "rol": "Perfiles Dinámicos",
+      "tareas": [
+        "Creación de componente de perfil individual",
+        "Implementación de enrutamiento dinámico con React Router",
+        "Estructuración del archivo JSON con datos personales",
+        "Estilización personalizada y adaptación responsive"
+      ],
+      "descripcion": "Mirta se encargó de los perfiles individuales. Creó el componente para mostrar la información personal de cada integrante mediante rutas dinámicas basadas en ID, resolviendo así el enrutamiento dinámico de las páginas individuales. Organizó los datos en un archivo JSON y se aseguró de que cada perfil mostrara nombre, biografía, habilidades y proyectos de forma clara y atractiva. También realizó pruebas para que la visualización fuera responsiva y adaptada a distintos dispositivos. Un desafío fue garantizar que el diseño personalizado de cada perfil mantuviera la coherencia general de la aplicación y fuera accesible en móviles y tablets. Mirta trabajó con precisión para resolver estos detalles.",
+      "fortalezas": [
+        "Precisión",
+        "Responsividad",
+        "Estructura de datos clara"
+      ]
+    }
+  ],
+  "cronologia": [
+    "Semana 1: Organización del grupo, alta en Trello y GitHub.",
+    "Semana 2: Desarrollo de estructura base, Layout, Sidebar, Presentación.",
+    "Semana 3: Consumo de API y JSON, integración de rutas dinámicas.",
+    "Semana 4: Estilización final, revisión, testeo responsive y deploy."
+  ],
+  "tecnologias": [
+    "React + Vite",
+    "React Router DOM",
+    "CSS Modules",
+    "JSON",
+    "Vercel",
+    "GitHub + Trello",
+    "Discord"
+  ]
+}
