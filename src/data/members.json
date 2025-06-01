@@ -1,7 +1,9 @@
+
 [
   {
     "id": "perfillucas",
     "name": "Lucas Blaci",
+    "img": "/assets/perfillucas.jpg",
     "skills": ["JavaScript", "React", "Node.js"],
     "projects": [
       "Gestor de Tareas Web",
@@ -19,6 +21,7 @@
   {
     "id": "perfilmicaela",
     "name": "Micaela Luaces",
+    "img": "/assets/perfilmica.jpg",
     "skills": ["Python", "MySQL", "React"],
     "projects": [
       "Sistema de control de stock",
@@ -36,6 +39,7 @@
   {
     "id": "perfilnazarena",
     "name": "Nazarena Macre",
+    "img": "/assets/perfilnazarena.jpg",
     "skills": ["Java", "Spring Boot", "SQL"],
     "projects": [
       "Plataforma de e-learning",
@@ -53,6 +57,7 @@
   {
     "id": "perfilmirta",
     "name": "Mirta Verón",
+    "img": "/assets/perfilmirta.jpg",
     "skills": ["C#", ".NET", "React"],
     "projects": [
       "Sistema de reservas para consultorios",
