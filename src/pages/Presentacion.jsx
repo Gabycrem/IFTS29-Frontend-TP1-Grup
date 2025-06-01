@@ -1,10 +1,10 @@
 import Card from '../components/Card/Card';
 import "../styles/global.css";
 import "../styles/presentacion.css";
-import perfillucas from '../assets/perfillucas.jpg';
-import perfilmica from '../assets/perfilmica.jpg';
-import perfilnazarena from '../assets/perfilnazarena.jpg';
-import perfilmirta from '../assets/perfilmirta.jpg';
+import perfillucas from '/assets/perfillucas.jpg';
+import perfilmica from '/assets/perfilmica.jpg';
+import perfilnazarena from '/assets/perfilnazarena.jpg';
+import perfilmirta from '/assets/perfilmirta.jpg';
 
 const integrantes = [
   {

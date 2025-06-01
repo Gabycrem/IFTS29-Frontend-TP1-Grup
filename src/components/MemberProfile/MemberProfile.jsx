@@ -1,11 +1,12 @@
 import React from "react";
 import "./MemberProfile.css";
 
-const MemberProfile = ({ name, skills, projects, technologies }) => {
+const MemberProfile = ({ name,img, skills, projects, technologies }) => {
   return (
     <div className="profileContainer card">
       <div className="profileHeader">
         <h1>{name}</h1>
+        <img className="card-img" src={img} alt="Foto de perfil de {name}"></img>
       </div>
 
       <div className="section">
@@ -49,7 +50,7 @@ const MemberProfile = ({ name, skills, projects, technologies }) => {
                   {tech.name.charAt(0)}
                 </div>
               )}
-              <span className="techName">{tech.name}</span>
+              {/* <span className="techName">{tech.name}</span> */}
             </div>
           ))}
         </div>
