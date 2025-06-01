@@ -28,7 +28,7 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 
 ## 🚀 Deploy
 
-🔗 Link a la app en Vercel: _[pendiente]_
+🔗 Link a la app en Vercel: _[(https://ifts-29-frontend-tp-1-grup.vercel.app/)]_
 
 ---
 
