@@ -16,7 +16,7 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 ![Presentacion](./public/capturas/presentacion.png)
 
 ### 👥 Perfil Individual
-![Perfil ](./public/capturas/unPerfil.png.png)
+![Perfil ](./public/capturas/unPerfil.png)
 
 ### 📚 Lista de Libros desde JSON
 ![Libros](./public/capturas/json.png)
@@ -74,7 +74,7 @@ Aplicación web desarrollada como parte del Trabajo Práctico Grupal N.º 1 del 
 
 ## 🌲 Estructura del Proyecto
 
-\`\`\`
+```
 src/
 ├── components/
 │   ├── Layout.jsx
@@ -93,7 +93,7 @@ src/
 ├── index.css
 └── styles/
     └── global.css
-\`\`\`
+```
 
 ---
 
@@ -107,7 +107,7 @@ src/
 ✅ Consumo de API pública  
 ✅ Estilos responsive  
 ✅ Bitácora final  
-🔲 Deploy en Vercel  
+✅ Deploy en Vercel  
 
 ---
 
