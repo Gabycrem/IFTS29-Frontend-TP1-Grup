@@ -21,6 +21,28 @@ const MemberProfile = ({ name,img, skills, projects, technologies }) => {
       </div>
 
       <div className="section">
+          <h2>Proyectos Destacados</h2>
+          <div className="projectGallery">
+          {
+            projects.map((project, i) => (
+              <div key={i} className="projectCard">
+                <h3 className="projectTitle">{project.title}</h3>
+                <p className="card-text">{project.description}</p>
+                <img 
+                src={project.img} 
+                alt={`Imagen del Proyecto ${project.title}`}
+                className="projectImage card-img"
+                onError={(e) => {
+                  e.target.src="/placeholder-project.png";
+                }} />
+                
+              </div>
+            ))
+          }
+      </div>
+      </div>
+
+      {/* <div className="section">
         <h2>Proyectos Destacados</h2>
         <ul className="projectList">
           {projects.map((project, i) => (
@@ -29,7 +51,7 @@ const MemberProfile = ({ name,img, skills, projects, technologies }) => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
 
       <div className="section">
         <h2>Tecnologías</h2>
