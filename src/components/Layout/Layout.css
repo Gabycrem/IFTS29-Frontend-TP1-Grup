@@ -1,0 +1,71 @@
+@import '../../styles/global.css';
+
+.layout {
+  display: flex;
+  height: 100vh; 
+}
+
+.sidebarLayout {
+  width: 25%;
+  max-width: 250px;
+  background-color: var(--color-primario); 
+  padding: 1rem;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fefefe; 
+  overflow-y: auto; 
+  color: var(--color-primario);
+}
+
+/* Botón hamburguesa */
+.hamburger {
+  display: none;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--color-primario);
+  z-index: 1100;
+  cursor: pointer;
+}
+
+.hamburger.open{
+  color: var(--color-acento);
+}
+
+/* -------------- Responsive para móviles -------------- */
+@media screen and (max-width: 768px) {
+  .hamburger{
+    display: block;
+    align-self: flex-start;
+  }
+
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebarLayout {
+    display: none; /* Oculta el sidebar por defecto */
+  }
+
+  .sidebarLayout.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 220px;
+    background-color: var(--color-primario);
+    z-index: 1000;
+    padding: 1rem;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

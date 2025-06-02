@@ -1,0 +1,128 @@
+@import '../../styles/global.css';
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.profileHeader h1 {
+  width: 100%;
+  margin: 0;
+}
+
+.profileHeader .card-img{
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
+.section h2 {
+  color: #3498db;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skillList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skillItem {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.projectCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.projectCard .card-text{
+  max-width: 300px;
+}
+
+.projectCard .card-img{
+  width: 300px;
+  height: auto;
+  border-radius: 16px;
+  border: 2px solid var(--color-acento);
+}
+
+.techGrid {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.techItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.techItem:hover {
+  transform: translateY(-3px);
+}
+
+.techIcon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  filter: grayscale(20%);
+  transition: all 0.3s ease;
+}
+
+.techItem:hover .techIcon {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.techName {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 885px){
+  .profileHeader{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .techGrid {
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  }
+}

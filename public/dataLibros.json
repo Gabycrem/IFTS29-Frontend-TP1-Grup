@@ -1,0 +1,23 @@
+[
+    {"titulo": "1984", "autor": "George Orwell", "anio": 1949, "genero": "Distopía", "descripcion": "Un futuro totalitario y opresivo controlado por el Gran Hermano."},
+    {"titulo": "Un Mundo Feliz", "autor": "Aldous Huxley", "anio": 1932, "genero": "Distopía", "descripcion": "Una sociedad tecnológicamente avanzada que suprime la libertad individual."},
+    {"titulo": "Fahrenheit 451", "autor": "Ray Bradbury", "anio": 1953, "genero": "Distopía", "descripcion": "Bomberos que queman libros en una sociedad que prohíbe el conocimiento."},
+    {"titulo": "Matar a un Ruiseñor", "autor": "Harper Lee", "anio": 1960, "genero": "Drama", "descripcion": "Una historia sobre racismo e injusticia en el sur de Estados Unidos."},
+    {"titulo": "El Principito", "autor": "Antoine de Saint-Exupéry", "anio": 1943, "genero": "Fábula", "descripcion": "Un pequeño príncipe que viaja por el universo aprendiendo sobre la vida."},
+    {"titulo": "Cien Años de Soledad", "autor": "Gabriel García Márquez", "anio": 1967, "genero": "Realismo Mágico", "descripcion": "La historia de la familia Buendía en el pueblo de Macondo."},
+    {"titulo": "Don Quijote de la Mancha", "autor": "Miguel de Cervantes", "anio": 1605, "genero": "Aventura", "descripcion": "Las aventuras de un caballero idealista y su escudero Sancho Panza."},
+    {"titulo": "La Odisea", "autor": "Homero", "anio": -800, "genero": "Épica", "descripcion": "El largo viaje de regreso a casa del héroe griego Odiseo."},
+    {"titulo": "Crimen y Castigo", "autor": "Fiódor Dostoievski", "anio": 1866, "genero": "Drama psicológico", "descripcion": "Un joven lucha con su conciencia tras cometer un asesinato."},
+    {"titulo": "El Gran Gatsby", "autor": "F. Scott Fitzgerald", "anio": 1925, "genero": "Tragedia", "descripcion": "Una historia de amor y decadencia en la América de los años 20."},
+    {"titulo": "El Señor de los Anillos", "autor": "J.R.R. Tolkien", "anio": 1954, "genero": "Fantasía", "descripcion": "Una aventura épica para destruir un anillo de poder."},
+    {"titulo": "Drácula", "autor": "Bram Stoker", "anio": 1897, "genero": "Terror", "descripcion": "La historia del legendario vampiro Conde Drácula."},
+    {"titulo": "Moby Dick", "autor": "Herman Melville", "anio": 1851, "genero": "Aventura", "descripcion": "El capitán Ahab persigue obsesivamente a una enorme ballena blanca."},
+    {"titulo": "Frankenstein", "autor": "Mary Shelley", "anio": 1818, "genero": "Terror", "descripcion": "La creación de un monstruo por un científico ambicioso."},
+    {"titulo": "Alicia en el País de las Maravillas", "autor": "Lewis Carroll", "anio": 1865, "genero": "Fantasía", "descripcion": "Una niña cae en un mundo mágico lleno de criaturas extrañas."},
+    {"titulo": "Orgullo y Prejuicio", "autor": "Jane Austen", "anio": 1813, "genero": "Romance", "descripcion": "Una historia de amor y malentendidos en la Inglaterra del siglo XIX."},
+    {"titulo": "El Retrato de Dorian Gray", "autor": "Oscar Wilde", "anio": 1890, "genero": "Filosofía", "descripcion": "Un hombre cuya juventud eterna depende de un retrato mágico."},
+    {"titulo": "La Metamorfosis", "autor": "Franz Kafka", "anio": 1915, "genero": "Ficción", "descripcion": "Un hombre se transforma inexplicablemente en un insecto."},
+    {"titulo": "Los Miserables", "autor": "Victor Hugo", "anio": 1862, "genero": "Drama", "descripcion": "La vida de Jean Valjean, un exconvicto que busca redención."},
+    {"titulo": "Hamlet", "autor": "William Shakespeare", "anio": 1603, "genero": "Tragedia", "descripcion": "El príncipe Hamlet busca venganza por la muerte de su padre."}
+  ]
+  

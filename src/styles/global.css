@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES GLOBALES */
+:root {
+  --color-primario: #2242A3;
+  --color-secundario: #9FCBE1;
+  --color-acento: #D1B2E0;
+
+  --color-texto: #000000;
+  --color-blanco: #ffffff;
+  --color-fondo-claro: #f8f8f8;
+
+  --font-titulos: 'Merriweather', serif;
+  --font-texto: 'Roboto', sans-serif;
+
+  --font-size-texto: 12px;
+  --font-size-titulo: 16px;
+}
+
+/* ESTILOS GENERALES */
+body {
+  font-family: var(--font-texto);
+  font-size: var(--font-size-texto);
+  background-color: var(--color-fondo-claro);
+  color: var(--color-texto);
+}
+
+/* TÍTULOS */
+h1 {
+  font-family: var(--font-titulos);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+}
+
+h2 {
+  font-family: var(--font-titulos);
+  font-size: var(--font-size-titulo);
+  color: var(--color-primario)
+}
+
+strong {
+  font-weight: bold;
+  color: inherit;
+}
+
+
+
+/* ENLACES */
+a {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* IMÁGENES RESPONSIVAS */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and(max-width: 570px){
+
+  h1 {
+  font-size: 0.8rem;
+}
+
+  h2 {
+  font-family: var(--font-titulos);
+  font-size: var(--font-size-texto);
+  color: var(--color-primario)
+}
+}

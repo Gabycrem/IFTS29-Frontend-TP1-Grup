@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": "perfillucas",
+    "name": "Lucas Blaci",
+    "img": "/assets/perfillucas.jpg",
+    "skills": ["Responsabilidad", "Trabajo en equipo", "Empatía"],
+    "projects": [
+      {
+        "title": "App para Club Deportivo", 
+        "img": "/assets/proyectoLucas1.jpg", 
+          "description": "Aplicación web para gestionar entrenamientos, partidos y jugadores de un club deportivo."
+      },
+      {
+        "title": "Portafolio Profesional - Frontend Developer", 
+        "img": "/assets/proyectoLucas2.jpg",
+        "description": "Sitio web personal con enfoque en desarrollo frontend, mostrando habilidades y proyectos destacados."
+      },
+      {
+        "title": "Gestor de Tareas para Estudiantes",
+        "img": "/assets/proyectoLucas3.png",
+        "description": "Aplicación web que permite a estudiantes organizar sus tareas, establecer prioridades y fechas límite. Incluye notificaciones y panel de progreso."
+      }
+    ],
+    "technologies": [
+      { "name": "html5", "iconName": "html5" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Node.js", "iconName": "node" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "JavaScript", "iconName": "js" }
+    ]
+  },
+  {
+    "id": "perfilmicaela",
+    "name": "Micaela Luaces",
+    "img": "/assets/perfilmica.jpg",
+    "skills": ["Creatividad", "Escucha Activa", "Gestión del tiempo"],
+    "projects": [
+      {
+        "title": "Blog de Libros y más", 
+        "img": "/assets/proyectoMica1.jpg",
+        "description": "Blog con reseñas, recomendaciones y novedades del mundo literario."
+      },
+      {
+        "title": "Web para intercambio de libros", 
+        "img": "/assets/proyectoMica2.jpg",
+        "description": "Plataforma que permite a usuarios registrarse e intercambiar libros con otros lectores."
+      },
+      {
+        "title": "Página de EcoBici",
+        "img": "/assets/proyectoMica3.jpg",
+        "description": "Sitio web informativo sobre el sistema EcoBici de Buenos Aires, con galería de imágenes y mapa interactivo de estaciones."
+      }
+    ],
+    "technologies": [
+      { "name": "HTML5", "iconName": "html5" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "Python", "iconName": "python" },
+      { "name": "MySQL", "iconName": "mysql" }
+    ]
+  },
+  {
+    "id": "perfilnazarena",
+    "name": "Nazarena Macre",
+    "img": "/assets/perfilnazarena.jpg",
+    "skills": ["Liderazgo colaborativo", "Pensamiento Crítico", "Proactividad"],
+    "projects": [
+      {
+        "title": "Amazing Events - Página de eventos", 
+        "img": "/assets/proyectoNaza1.jpg",
+        "description": "Sitio web para explorar, filtrar y visualizar eventos con datos dinámicos desde API."
+      },
+      {
+        "title": "Mighty Ducks - Página de Club deportivo", 
+        "img": "/assets/proyectoNaza2.jpg",
+        "description": "Landing page informativa del club 'Mighty Ducks', con diseño responsivo y secciones claras."
+      },
+      {
+        "title": "App para sortear Amigo Secreto", 
+        "img": "/assets/proyectoNaza3.jpg",
+        "description": "Aplicación interactiva para realizar sorteos automáticos entre participantes de forma segura."
+      }
+    ],
+    "technologies": [
+      { "name": "Java", "iconName": "java" },
+      { "name": "Spring Boot", "iconName": "spring" },
+      { "name": "SQL", "iconName": "sql" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "HTML5", "iconName": "html5" }
+    ]
+  },
+  {
+    "id": "perfilmirta",
+    "name": "Mirta Verón",
+    "img": "/assets/perfilmirta.jpg",
+    "skills": ["Comunicación efectiva", "Resolución de conflictos", "Adaptabilidad"],
+    "projects": [
+      {
+        "title": "Pagina de E-Commerce", 
+        "img": "/assets/proyectoMirta1.png",
+        "description": "Tienda online con carrito de compras, navegación por categorías y diseño adaptable."
+      },
+      {
+        "title": "Portafolio Profesional - Desarrolladora Web", 
+        "img": "/assets/proyectoMirta2.png",
+        "description": "Sitio personal para destacar habilidades, trayectoria y proyectos en desarrollo web."
+      },
+      {
+        "title": "Dashboard para Control de Inventario",
+        "img": "/assets/proyectoMirta3.png",
+        "description": "Panel de administración para una pequeña tienda, que permite visualizar stock, ventas y proveedores. Construido con React y gráficos dinámicos."
+      }
+    ],
+    "technologies": [
+      { "name": "C#", "iconName": "csharp" },
+      { "name": ".NET", "iconName": "dotnet" },
+      { "name": "React", "iconName": "react" },
+      { "name": "Git", "iconName": "git" },
+      { "name": "JavaScript", "iconName": "js" }
+    ] 
+  }
+]
