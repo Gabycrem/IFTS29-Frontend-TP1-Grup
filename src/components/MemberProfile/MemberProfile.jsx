@@ -1,9 +1,11 @@
 import React from "react";
 import "./MemberProfile.css";
+import Card from "../Card/Card";
+
 
 const MemberProfile = ({ name,img, skills, projects, technologies }) => {
   return (
-    <div className="profileContainer card">
+    <div className="profileContainer">
       <div className="profileHeader">
         <h1>{name}</h1>
         <img className="card-img" src={img} alt="Foto de perfil de {name}"></img>
@@ -20,38 +22,21 @@ const MemberProfile = ({ name,img, skills, projects, technologies }) => {
         </ul>
       </div>
 
-      <div className="section">
-          <h2>Proyectos Destacados</h2>
-          <div className="projectGallery">
-          {
-            projects.map((project, i) => (
-              <div key={i} className="projectCard">
-                <h3 className="projectTitle">{project.title}</h3>
-                <p className="card-text">{project.description}</p>
-                <img 
-                src={project.img} 
-                alt={`Imagen del Proyecto ${project.title}`}
-                className="projectImage card-img"
-                onError={(e) => {
-                  e.target.src="/placeholder-project.png";
-                }} />
-                
-              </div>
-            ))
-          }
-      </div>
-      </div>
+ <div className="section">
+  <h2>Proyectos Destacados</h2>
+  <div className="projectGallery">
+    {projects.map((project, i) => (
+      <Card
+        key={i}
+        title={project.title}
+        description={project.description}
+        image={project.img}
+        className="projectCard"
+      />
+    ))}
+  </div>
+</div>
 
-      {/* <div className="section">
-        <h2>Proyectos Destacados</h2>
-        <ul className="projectList">
-          {projects.map((project, i) => (
-            <li key={i} className="projectItem">
-              {project}
-            </li>
-          ))}
-        </ul>
-      </div> */}
 
       <div className="section">
         <h2>Tecnologías</h2>
