@@ -111,6 +111,32 @@ src/
 
 ---
 
+## 🔧 Futuras Mejoras
+
+- 🔗 **Agregar redes sociales a los perfiles individuales**  
+  Incluir íconos y enlaces a redes sociales (LinkedIn, GitHub, etc.) en cada perfil para dar mayor visibilidad al trabajo de cada integrante.
+
+- 📱 **Ocultar el menú hamburguesa al seleccionar un enlace**  
+  Mejorar la experiencia móvil cerrando automáticamente el menú tras hacer clic en una opción.
+
+- 🎠 **Carrusel para los proyectos o libros**  
+  Reemplazar la lista estática por un carrusel interactivo que permita explorar los elementos de forma más atractiva.
+
+- 🌙 **Modo oscuro (Dark Mode)**  
+  Agregar un interruptor que permita alternar entre tema claro y oscuro, adaptable a la preferencia del usuario.
+
+- 🗂️ **Filtrado y búsqueda de libros**  
+  Incorporar un buscador o filtros por autor/categoría para facilitar el acceso a contenidos específicos.
+
+- ✨ **Animaciones y transiciones suaves**  
+  Incluir efectos visuales sutiles para mejorar la experiencia al navegar o interactuar con la aplicación.
+
+- 📬 **Formulario de contacto o feedback**  
+  Agregar un formulario para que usuarios puedan dejar sugerencias, dudas o comentarios al equipo.
+
+  
+---
+
 ## 📌 Notas Finales
 
 Este proyecto nos permitió aplicar conocimientos teóricos y prácticos de React, aprender a trabajar en equipo y organizar tareas en un entorno colaborativo. Cada integrante aportó desde su rol, fortaleciendo no solo las habilidades técnicas, sino también las comunicacionales y organizativas.
