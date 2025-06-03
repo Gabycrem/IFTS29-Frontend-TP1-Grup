@@ -19,7 +19,7 @@
       {
         "title": "Gestor de Tareas para Estudiantes",
         "img": "/assets/proyectoLucas3.png",
-        "description": "Aplicación web que permite a estudiantes organizar sus tareas, establecer prioridades y fechas límite. Incluye notificaciones y panel de progreso."
+        "description": "Aplicación web que permite a estudiantes organizar sus tareas y fechas límite. Incluye notificaciones y panel de progreso."
       }
     ],
     "technologies": [

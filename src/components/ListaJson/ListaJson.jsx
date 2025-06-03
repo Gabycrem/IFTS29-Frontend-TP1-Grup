@@ -20,7 +20,7 @@ const ListaJson = () => {
 
   return (
     <div className="lista-json">
-      <h1>Listado de Libros</h1>
+      <h1>Listado de Libros Clásicos</h1>
       {error && <p className="error">{error}</p>}
       <div className="tarjetas-container">
         {libros.map((libro, index) => (
