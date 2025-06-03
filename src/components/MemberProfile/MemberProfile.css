@@ -25,14 +25,12 @@
 
 /* Sección con borde separador */
 .section:not(:last-child) {
-  margin-bottom: 2rem;
   border-bottom: 1px solid var(--color-acento);
   padding-bottom: 2rem;
 }
 
 /* Ajuste para la última sección para achicar espacio superior */
-.section:last-child {
-  padding-top: 0.5rem; 
+.section:last-child { 
   margin-top: 0; 
 }
 
